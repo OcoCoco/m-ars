@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">M-ARS</string>
+    <string name="landingPage_info">Scan the QR code to begin</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="qrcode_icon">qrcode icon</string>
+    <string name="scan_page_title">Scan QR Code</string>
+    <string name="plane_finding">Searching for flat surfaces ...</string>
+    <string name="morebutton">moreButton</string>
+    <string name="helpimagebutton">helpImageButton</string>
+    <string name="faqsimagebutton">fAQsImageButton</string>
+    <string name="scanimagebutton">scanImageButton</string>
+    <string name="moreimagebutton">moreImageButton</string>
+</resources>

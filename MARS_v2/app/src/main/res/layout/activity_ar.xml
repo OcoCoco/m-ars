@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    tools:context=".ARActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/ux_fragment"
+            android:name="com.google.ar.sceneform.ux.ArFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <ImageButton
+                android:id="@+id/helpImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/help_white"
+                android:contentDescription="@string/helpimagebutton" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true">
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/fAQsImageButton"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="60dp"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--app:srcCompat="@drawable/question_answer_white"-->
+                    <!--android:contentDescription="@string/faqsimagebutton" />-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/scanImageButton"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="60dp"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--app:srcCompat="@drawable/add_white"-->
+                    <!--android:contentDescription="@string/scanimagebutton" />-->
+
+                <ImageButton
+                    android:id="@+id/moreImageButton"
+                    android:layout_width="38dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/more_horiz_white"
+                    android:contentDescription="@string/moreimagebutton" />
+
+            </LinearLayout>
+        </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

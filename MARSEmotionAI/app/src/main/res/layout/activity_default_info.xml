@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DefaultInfoActivity">
+
+    <Button
+        android:id="@+id/sdk_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="More"/>
+
+    <!--<ToggleButton-->
+        <!--android:id="@+id/front_back_toggle_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/sdk_start_button"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:padding="5dp"-->
+        <!--android:textOff="FRONT"-->
+        <!--android:textOn="BACK" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/surfaceview_visibility_button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentTop="true" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/smile_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="16dp"-->
+    <!--tools:text="smile" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/age_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/smile_textview"-->
+    <!--android:layout_margin="16dp"-->
+    <!--tools:text="age" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/ethnicity_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/age_textview"-->
+    <!--android:layout_margin="16dp"-->
+    <!--tools:text="ethnicity" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/anger_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Anger" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/contempt_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:layout_below="@id/anger_textview"-->
+    <!--tools:text="Contempt" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/disgust_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/contempt_textview"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Disgust" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/fear_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/disgust_textview"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Fear" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/joy_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/fear_textview"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Joy" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/sad_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/joy_textview"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Sad" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/surprise_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/sad_textview"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Surprise" />-->
+
+    <TextView
+        android:id="@+id/engagement_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        tools:text="Engagement" />
+
+    <TextView
+        android:id="@+id/valence_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/engagement_textview"
+        android:layout_margin="10dp"
+        tools:text="Valence" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/attention_textview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/valence_textview"-->
+    <!--android:layout_margin="10dp"-->
+    <!--tools:text="Attention" />-->
+
+</RelativeLayout>

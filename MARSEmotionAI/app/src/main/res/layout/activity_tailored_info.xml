@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TailoredInfoActivity">
+
+    <TextView
+        android:id="@+id/engagementOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engagement Output" />
+
+    <TextView
+        android:id="@+id/valenceOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/engagementOutput"
+        android:layout_margin="10dp"
+        tools:text="Valence Output" />
+
+    <TextView
+        android:id="@+id/nullOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valenceOutput"
+        android:layout_margin="10dp"
+        tools:text="Null Output" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nullOutput"
+        android:layout_margin="10dp"
+        tools:text="" />
+
+</RelativeLayout>
